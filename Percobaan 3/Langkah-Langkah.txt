@@ -1,0 +1,8 @@
+#Langkah Langkah Percobaan 3
+1) Jangan Lupa dibagian setting untuk Dichecklist dibagian 'Always Show Interface Labels'
+2) Gunakan Router 2001 atau Router biasa, dan gunakan Switch S5700
+3) Jalankan sesuai file HCIA Bab 3 tentang konfigurasi VLAN
+4) pada bagian undo portswitch dilewati saja, dan langsung lompat ke bagian syntax vlan
+5) lalu dibagian verification jangan lupa untuk diuji, apabila berhasil untuk melakukan ping, maka percobaan dapat dikatakan sukses
+6) lalu klik kanan pada bagian switch dan piih capture data di semua etherport
+   a) lakukan step 5 kembali, dan jangan lupa setting filter menjadi ICMP
