@@ -1,0 +1,24 @@
+#Penyelesaian Error 40
+1) Buka Oracle VM VirtualBox
+2) Pastikan pada bagian dashboard, terdapat 5 Virtual Machine:
+   a) WLAN_AC_Base
+   b) WLAN_AD_Base
+   c) WLAN_SAP_Base
+   d) WLAN_AP_Base
+   e) AR_Base
+apabila tidak ada satu diantara kelima diatas, diuninstall Oracle VM VirtualBoxnya
+3) Lalu dibagian Global tools, klik tanda panah kebawah, dan pilih Host Network Manager
+4) Pastikan terdapat 1 Virtualbox dengan format nama
+    VirtualBox Host-Only Ethernet Adapter <-- apabila terdapat nama diakhir seperti #1 #2, tidak apa apa
+5) Pastikan IPv4 Address/Mask memiliki konfigurasi sebagai berikut
+   a) IPv4 Address = 192.168.56.1
+   b) IPv4 Network Mask = 255.255.255.0
+6) centang pada bagian DHCP Server
+7) Coba run kembali untuk ensp, apabila tidak bisa, maka dapat dilanjut untuk stepnya
+8) Masuk ke directory ENSP kalian, contohnya untuk saya adalah C:/Program Files/Huawei/ENSP
+9) Masuk ke Folder vbox server
+10) Masuk ke folder AR_Base, dan buka AR_Base.vbox menggunakan notepad
+11) Cari dengan kata kunci 'Host-Only' dan tambahkan #nomor di VBOX kalian, 
+12) Ulangi cara nomor 10, 11 untuk 5 virtual machine yang telah disebutkan pada step no 2
+13) Coba jalankan kembali
+14) apabila berhasil akan tetapi terjadi looping, maka konfigurasi IPv4 pada step 5 belum dilakukan  
