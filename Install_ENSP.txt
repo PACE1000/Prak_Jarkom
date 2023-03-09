@@ -1,0 +1,9 @@
+#Langkah - Langkah Install ENSP
+1) Download dengan menggunakan link yang sudah disediakan
+https://drive.google.com/file/d/1tNPk-Q-Bb66W4MnSm35DMG3vVypmmoaT/view?usp=share_link
+2) Install dengan urutan sebagai berikut: Bebas akan tetapi ENSP diinstall paling terakhir
+3) Konfigurasinya default, jangan dicentang apapun lagi, kecuali dekstop ICON
+4) install ENSP
+5) Jalankan dan gunakan Router untuk dites apakah ENSP dapat berjalan atau tidak?
+   a) Apabila tidak (menunjukkan Error 40), maka merujuk pada panduan selanjutnya
+   b) kalau bisa ya Alhamdulillah :v
